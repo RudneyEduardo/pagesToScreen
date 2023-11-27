@@ -1,0 +1,7 @@
+O que fazer agora ? 
+
+--> Adicionar imagens para o slide show do index.html principal
+
+--> pegar os valores que saem quando clica tanto de obras quanto do slide e passar pra carregar a página com o conteúdo certo
+
+--> Estilo e formatação semantica certa das páginas
