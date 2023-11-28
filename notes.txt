@@ -1,7 +1,9 @@
 O que fazer agora ? 
 
---> Adicionar imagens para o slide show do index.html principal
+--> Enviar para outra página e puxar conforme id da obra
 
---> pegar os valores que saem quando clica tanto de obras quanto do slide e passar pra carregar a página com o conteúdo certo
+--> criar layout de página para works
+
+--> pegar os valores que saem quando clica do slide e passar pra carregar a página com o conteúdo certo
 
 --> Estilo e formatação semantica certa das páginas
