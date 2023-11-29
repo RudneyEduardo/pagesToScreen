@@ -1,11 +1,35 @@
-
 //main func
-const loadPage = () => {
-    setWorksSelect();
-    let workId = getWorkIdParam()
-    populateDivs(workId)
+const loadPage = async () => {
+    let data = await getJsonData();
+    await setWorksSelect(data);
+    let workId = getWorkIdParam();
+    await loadTitles(workId, data);
+    await loadParagraphs(workId, data)
+    await loadImages(workId, data)
+    populateDivs(workId, data)
 }
 
+const loadTitles = async (workId, data) => {
+    let title = document.getElementById('pageTitle')
+    let text = document.createTextNode(data.files[workId].title)
+    title.appendChild(text)
+}
+
+const loadParagraphs = async (workId, data) => {
+    let firstP = document.getElementById('firstParagraph')
+    let principalP = document.getElementById('principalText')
+    let textFP = document.createTextNode(data.files[workId].firstParagraph)
+    let textPP = document.createTextNode(data.files[workId].principalText)
+    firstP.appendChild(textFP)
+    principalP.appendChild(textPP)
+}
+
+const loadImages = async (workId, data) => {
+    let image = document.getElementById('principalImage')
+    //image.src = data.files[workId].principalImage
+    //image.src = ''
+    console.log(image)
+}
 
 async function getJsonData() {
     return await fetch('./data.json')
@@ -34,9 +58,8 @@ function selectWork() {
     window.location.href = `/pages/works/index.html?workId=${selectValue}`;
 }
 
-async function setWorksSelect() {
+async function setWorksSelect(data) {
     //Get data from local json
-    let data = await getJsonData();
     console.log(data)
     //add dynamically text to select
     let worksSelect = document.getElementById("worksSelect")
