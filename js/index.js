@@ -25,10 +25,10 @@ const loadParagraphs = async (workId, data) => {
 }
 
 const loadImages = async (workId, data) => {
-    let image = document.getElementById('principalImage')
-    //image.src = data.files[workId].principalImage
-    //image.src = ''
-    console.log(image)
+    var image = new Image();
+    image.src = "http://127.0.0.1:5500/imgs/"+data.files[workId].principalImage.link;
+    document.getElementById("principalImage").appendChild(image);
+    
 }
 
 async function getJsonData() {
