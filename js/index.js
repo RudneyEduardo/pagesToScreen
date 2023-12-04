@@ -6,6 +6,7 @@ const loadPage = async () => {
     await loadTitles(workId, data);
     await loadParagraphs(workId, data)
     await loadImages(workId, data)
+    await loadVolumes(workId, data)
     populateDivs(workId, data)
 }
 
@@ -19,17 +20,35 @@ const loadParagraphs = async (workId, data) => {
     let firstP = document.getElementById('firstParagraph')
     let principalP = document.getElementById('principalText')
     let textFP = document.createTextNode(data.files[workId].firstParagraph)
-    let textPP = document.createTextNode(data.files[workId].principalText)
+    let Fulltext = data.files[workId].principalText.split('.')
+    for(let i = 0; i < Fulltext.length; i++){
+        let textPP = document.createTextNode(Fulltext[i])
+        principalP.appendChild(textPP)
+        principalP.appendChild(document.createElement('br'))
+    }
     firstP.appendChild(textFP)
-    principalP.appendChild(textPP)
+    
 }
 
 const loadImages = async (workId, data) => {
     var image = new Image();
-    image.src = "http://127.0.0.1:5500/imgs/"+data.files[workId].principalImage.link;
+    image.src = "http://127.0.0.1:5500/imgs/" + data.files[workId].principalImage.link;
+    image.style = "width: 50%;height: 800px;float: right;padding-left: 10%"
     document.getElementById("principalImage").appendChild(image);
-    
+
 }
+
+const loadVolumes = async (workId, data) => {
+    let volumesArticle = document.getElementById('volumes')
+    for(let i = 0; i < data.files[workId].volumes.length; i++){
+        let textNode = document.createTextNode(' - '+data.files[workId].volumes[i].volume)
+        if(i == 0){
+            volumesArticle.appendChild(document.createElement('br'))
+        }
+        volumesArticle.appendChild(textNode)
+        volumesArticle.appendChild(document.createElement('br'))
+    }
+}   
 
 async function getJsonData() {
     return await fetch('./data.json')

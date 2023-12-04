@@ -6,34 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel=”manifest” href="../../js/manifest.json">
- 
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="../../scrollBar.css">
 </head>
 
 <body onload="loadPage()">
-  <nav>
-    <select onchange="selectWork()" class="custom-select" id="worksSelect" style="width:200px;" name="cars" id="cars">
-      <option value="" disabled selected hidden>Obras</option>
+  <nav class="navbar">
+    <select onchange="selectWork()" class="custom-select" id="worksSelect">
+      <option value="" selected hidden id="selectedOption">Obras</option>
     </select>
     |
-    <a href="../articles/index.html">Artigos</a> |
+    <a href="../articles/index.html">Personagens</a> |
     <a href="../images/index.html">Imagens</a> |
     <a href="../videos/index.html">Videos</a>
   </nav>
-  <section>
-    <h2 id="pageTitle"></h2>
-  </section>
-  <section>
-    <article id="firstParagraph"></article>
-    <aside id="principalText" style="width: 40%;
-        padding-left: 15px;
-        margin-left: 15px;
-        float: left;
-        background-color: lightgray;"></aside>
-    <article id="principalImage">
+  <div class="divisor"></div>
+  <main class="container">
+    <article>
+      <h2 id="pageTitle"></h2>
     </article>
+    <article id="firstParagraph"></article>
+    <section>
+      <figure id="principalImage">
+      </figure>
+      <br>
+      <aside id="principalText"></aside>
+    </section>
+    <section class="volumes">
+      <header>
+        <h3 id="volumesHeader">Volumes</h3>
+      </header>
+      <article id="volumes"></article>
+    </section>
+  </main>
 
-
-  </section>
   <script src="../../js/index.js"></script>
 </body>
 

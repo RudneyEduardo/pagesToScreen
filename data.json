@@ -1,20 +1,20 @@
 {
     "works": [
         {
-            "title": "Scott Pilgrim",
-            "imgLink": ""
+            "title": "Locke & Key",
+            "imgLink": "locke3.jpg"
         },
         {
-            "title": "Locke & Key",
-            "imgLink": ""
+            "title": "Scott Pilgrim",
+            "imgLink": "trilogiaScott.jpeg"
         },
         {
             "title": "Heartstopper",
-            "imgLink": ""
+            "imgLink": "heart2.jpg"
         },
         {
             "title": "Sabrina",
-            "imgLink": ""
+            "imgLink": "sabrina1.jpg"
         }
     ]
 }

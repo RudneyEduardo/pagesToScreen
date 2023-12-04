@@ -2,7 +2,7 @@ let slideIndex = 0;
 showSlides();
 setImageCaptions();
 setWorksSelect();
-
+setImageCarrousel();
 
 async function getJsonData() {
   return await fetch('./data.json')
@@ -21,6 +21,27 @@ async function setImageCaptions() {
     captions[i].appendChild(text)
   }
 }
+
+{/* <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./imgs/trilogiaScott.jpeg" alt="test3" style="width:100%">
+      <div class="text"></div>
+    </div> */}
+
+
+async function setImageCarrousel(){
+  let data = await getJsonData();
+  let containers = document.getElementsByClassName('mySlides')
+  for(let i = 0; i < containers.length; i++){
+    var image = new Image();
+    image.src = "http://127.0.0.1:5500/imgs/" +data.works[i].imgLink;
+    image.style = "width:100%"
+    containers[i].appendChild(image);
+    
+}
+  console.log(containers)
+}
+
 
 function showSlides() {
   let i;
