@@ -94,3 +94,32 @@ select::selection {
   input[type="submit"]:hover {
     background-color: #363a36;
   }
+
+
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+  .navbar a{
+    font-size: 0.5rem;
+  }
+  select{
+    max-width: 50px;
+    font-size: 1.25rem;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 800px) {
+  .text {
+    font-size: 13px
+  }
+  .navbar a{
+    font-size: 1rem;
+  }
+  select{
+    max-width: 150px;
+    font-size: 1rem;
+  }
+}

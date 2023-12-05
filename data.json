@@ -15,6 +15,18 @@
         {
             "title": "Sabrina",
             "imgLink": "sabrina1.jpg"
+        },
+        {
+            "title": "Turma da Mônica",
+            "imgLink": "monica3.jpg"
+        },
+        {
+            "title": "A queda da casa de Usher",
+            "imgLink": "usher4.jpg"
+        },
+        {
+            "title": "Bichos",
+            "imgLink": "bichos1.jpg"
         }
     ]
 }

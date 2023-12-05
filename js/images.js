@@ -23,7 +23,8 @@ async function loadImages(data) {
         let imageTitleh2 = document.createElement('h2')
         imageTitleh2.appendChild(document.createTextNode(imageTitle))
         var image = new Image();
-        image.src = "http://127.0.0.1:5500/imgs/bichos1.jpg"; //+ data.files[i].img.link
+        image.src = "http://127.0.0.1:5500/imgs/" + data.files[i].img.link //+ data.files[i].img.link
+        console.log(data.files[i].img.link)
         imagesArticles[i].appendChild(imageTitleh2);
         imagesArticles[i].appendChild(image);
     }

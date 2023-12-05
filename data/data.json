@@ -8,32 +8,36 @@
                 "link": "locke2.jpg",
                 "alt": ""
             },
+            "img": {
+                "alt": "",
+                "link": "locke.jpg"
+            },
             "videoLink": {
-                "link": "https://www.youtube.com/embed/0NRDGjhIpvM?enablejsapi=1"
+                "link": "https://www.youtube.com/embed/U6mCkzv7WPM?enablejsapi=1"
             },
             "volumes": [
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 },
                 {
-                    "volume": "Jogos Mentais (link pra sinopse)",
+                    "volume": "Jogos Mentais ",
                     "link": ""
                 },
                 {
-                    "volume": "Coroa de sombras (link pra sinopse)",
+                    "volume": "Coroa de sombras ",
                     "link": ""
                 },
                 {
-                    "volume": "Chaves do reino (link pra sinopse)",
+                    "volume": "Chaves do reino ",
                     "link": ""
                 },
                 {
-                    "volume": "Engrenagens (link pra sinopse)",
+                    "volume": "Engrenagens ",
                     "link": ""
                 },
                 {
-                    "volume": "Alfa & Ômega (link pra sinopse)",
+                    "volume": "Alfa & Ômega ",
                     "link": ""
                 }
             ],
@@ -71,12 +75,7 @@
                     "linkUrl": ""
                 }
             ],
-            "characters": [
-                {
-                    "name": "Charlie",
-                    "sexuality": "Homossexual"
-                }
-            ]
+            "characters": []
         },
         {
             "title": "Scott Pilgrim",
@@ -84,49 +83,28 @@
             "principalText": "A história é bem simples e leve, mais no âmbito realista, o que acredita-se ser mais difícil de encontrar quando se fala de HQ´s. Scott Pilgrim é um cara de 23 anos, que se apaixona pela misteriosa Ramona Flowers, uma entregadora da Amazon. Ao chamá-la para sair, entra no desafio de ter que derrotar todos seus ex-namorados do mal para conquistá-la. O filme é bem fiel aos quadrinhos, com Michael Cera (Scott) lutando com cada um dos 7 ex-namorados de Mary Elizabeth Winstead (Ramona). Possui 7 fases, cada uma para cada ex-namorado, possui design de jogos antigos, com efeito pixelado e pode ser jogado com até 4 pessoas. É possível jogar com alguns personagens da obra: Scott, Stephen Stills, Kim Pine, Wallace Wells. Está disponível para Nintendo Switch, Xbox, Playstation, Steam. Desenvolvido pela Ubisoft. A mais recente adaptação, lançada neste mês de novembro, foi a que mais modificou a história clássica de Scott Pilgrim. A trama se desenrola a partir do pressuposto de que Scott é derrotado pelo primeiro ex de Ramona, Matthew Patel, mas esta desconfia que, na verdade, Scott foi sequestrado pela liga de ex-namorados do mal. É uma adaptação que transparece mais a ideia de história extra.",
             "volumes": [
                 {
-                    "volume": "",
+                    "volume": "Vol.1",
                     "link": ""
                 },
                 {
-                    "volume": "",
+                    "volume": "Vol.2",
                     "link": ""
                 },
                 {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
-                    "link": ""
-                },
-                {
-                    "volume": "",
+                    "volume": "Vol.3",
                     "link": ""
                 }
             ],
+            "videoLink": {
+                "link": "https://www.youtube.com/embed/doKntgTt1So?enablejsapi=1"
+            },
             "principalImage": {
                 "link": "trilogiaScott.jpeg",
                 "alt": ""
+            },
+            "img": {
+                "alt": "",
+                "link": "scott2.jpg"
             },
             "links": [
                 {
@@ -164,7 +142,23 @@
             ],
             "characters": [
                 {
-                    "name": "Charlie",
+                    "name": "Ramona Flowers",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Scott Pilgrim",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Wallace Wells",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Kim Pine",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Knives Chau",
                     "sexuality": "Homossexual"
                 }
             ]
@@ -175,30 +169,37 @@
             "principalText": "Possui 4 volumes publicados, e o quinto com previsão de lançamento para dezembro deste ano. A Netflix adaptou essa HQ em 2021, e é possível dizer que a obra está praticamente idêntica aos quadrinhos, exceto pela exclusão do transtorno alimentar de Charlie, que é abordado no hq número 4. Na série, há rumores de que na terceira temporada o assunto será citado, mas sem grandes aprofundamentos e explicações. Cada personagem nos traz uma representatividade, o que tornou Alice Oseman muito reconhecida na literatura: Confira o trailer da série: (link) No verso de cada edição, encontra-se o conteúdo que o volume irá abordar em suas ilustrações, em formato de gráfico de pizza, um interessante recurso que a editora optou por utilizar:",
             "volumes": [
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 },
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 },
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 },
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 },
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 },
                 {
-                    "volume": "Bem-vindos a Lovecraft (link pra sinopse)",
+                    "volume": "Bem-vindos a Lovecraft ",
                     "link": ""
                 }
             ],
+            "videoLink": {
+                "link": "https://www.youtube.com/embed/hTyXVn9t0ig?enablejsapi=1"
+            },
+            "img": {
+                "alt": "",
+                "link": "heart2.jpg"
+            },
             "principalImage": {
                 "link": "heart.jpg",
                 "alt": ""
@@ -240,6 +241,9 @@
                 "link": "sabrina2.jpg",
                 "alt": ""
             },
+            "videoLink": {
+                "link": "https://www.youtube.com/embed/FyxPvL0Fb8M?enablejsapi=1"
+            },
             "volumes": [
                 {
                     "volume": ""
@@ -251,9 +255,179 @@
                     "linkUrl": ""
                 }
             ],
+            "img": {
+                "alt": "",
+                "link": "sabrina1.jpg"
+            },
             "characters": [
                 {
                     "name": "Charlie",
+                    "sexuality": "Homossexual"
+                }
+            ]
+        },
+        {
+            "title": "Turma da Mônica",
+            "firstParagraph": "A franquia nacional ganhou uma pagina exclusiva por ser uma das mais famosas obras brasileiras de quadrinhos e tirinhas. ",
+            "principalText": "Cada história das revistinhas da Monica possuem históricas independentes e leves. Na franquia da Monica jovem, existe uma continuação e tramas mais complexas e adolescentes/adultas.Existem filmes da Monica e Mônica Jovem, assim como os desenhos animados.Curiosidade: a turma do Penadinho e a turma do Horácio não foram adaptadas para além dos desenhos animados e não aparecem na franquia da Monica jovem.",
+            "principalImage": {
+                "link": "monica2.jpg",
+                "alt": ""
+            },
+            "img": {
+                "alt": "",
+                "link": "monica1.jpg"
+            },
+            "videoLink": {
+                "link": "https://www.youtube.com/embed/MWfYJbbTAU4?enablejsapi=1"
+            },
+            "links": [
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                },
+                {
+                    "title": "",
+                    "linkUrl": ""
+                }
+            ],
+            "characters": [
+                {
+                    "name": "Mônica",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Cebolinha",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Cascão",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Magali",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Franjinha",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Cascuda",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Kim",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Titi",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Aninha",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Dudu",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Carminha Frufru",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Louco (Professor Licurgo)",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Floquinho",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Jotalhao",
+                    "sexuality": "Homossexual"
+                }
+            ]
+        },
+        {
+            "title": "A queda da casa de Usher - Edgar Allan Poe",
+            "firstParagraph": "Este conto do homônimo autor Edgar Allan Poe, publicado pela primeira vez em 1839, já fez parte de diversas coletâneas do autor, e passou por recentes adaptações para os quadrinhos e pra as telas. A história em quadrinhos foi publicada pela editora Farol HQ, e em poucas páginas, com artes sombrias em tons de verde, branco e preto, traz para nós a história clássica de Roderick Usher e sua irmã, Madeline Usher.",
+            "principalText": "No conto, uma carta é enviada ao amigo de Usher, o narrador sem nome, que nos conta todos os acontecimentos até a devida queda da casa de Usher. No conteúdo da correspondência, Roderick conta que está doente e lidando com a doença de sua irmã, Madeline. Com a chegada do narrador e um período de conversa entre ele e Usher, ouvem-se barulhos, que acredita-se ser o crescimento das Heras pela paredes, mas também gemidos de dor de Madeline. Com a morte de M. Usher, Roderick pede ao seu amigo que o ajude a carregar seu caixão. Madeline é emparedada no porão da casa dos Usher pela dupla de amigos, e um tempo após seu sepultamento, escutam barulhos vindos de baixo da casa. Além do crescimento da vegetação pelas paredes, os barulhos são nada mais do que Madeline tentando escapar do emparedamento vivo. No clímax da história, com Madeline tentando matar Roderick Usher, e todos correndo, a casa cede e suas paredes começam a despedaçar. Os irmãos não conseguem escapar, mas o narrador foge da casa e conta a nós essa história, e sua observação final dos restos da casa afundando-se no lago ao lado. Em outubro de 2023, a Netflix adaptou a obra, com muitas diferenças em relação ao clássico, mas sua essência e referências deixam a série muito rica para os fãs de terror. ",
+            "videoLink": {
+                "link": "https://www.youtube.com/embed/8F56weVOYVg?enablejsapi=1"
+            },
+            "principalImage": {
+                "link": "usher1.jpg",
+                "alt": ""
+            },
+            "img": {
+                "alt": "",
+                "link": "usher2.jpg"
+            }
+        },
+        {
+            "title": "Bichos",
+            "firstParagraph": "Essa revista em quadrinhos contém duas histórias, com os personagens sendo um cachorro e um gato. Sem balõezinhos e falas, a história é composta inteiramente de imagens, acredita-se que por ser contada da perspectiva dos animais.  ",
+            "principalText": "Na história do gato, existe uma ilha descoberta por viajantes que é contemplada pelos nativos como ilha dos gatos, onde são vistos como deuses. No entanto, ocorre uma guerra e massacre de nativos e gatos para domina-la. Girando o exemplar, encontra-se a história do cachorro, que defende seu humano de ataques de censura do governo, por corja de suas obras vexatórias e obscenas, pequenas estatuetas de mulheres e homens nus. O cão do escultor e o próprio homem se mostram rendidos, e misteriosamente os cachorros dos policiais se recusam a ataca-los. Embasados de críticas sociais, cabe ressaltar que a interpretação central da obra é: quem são os verdadeiros “bichos”? As atitudes humanas ou o instinto animal?",
+            "videoLink": {
+                "link": "https://www.youtube.com/embed/Vh4qfZgaJVA?enablejsapi=1"
+            },
+            "principalImage": {
+                "link": "bichos1.jpg",
+                "alt": ""
+            },
+            "img": {
+                "alt": "",
+                "link": "bichos2.jpg"
+            },
+            "characters": [
+                {
+                    "name": "Gato ",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Cachorro",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Policiais ",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Nativos ",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Viajantes ",
+                    "sexuality": "Homossexual"
+                },
+                {
+                    "name": "Escultor ",
                     "sexuality": "Homossexual"
                 }
             ]

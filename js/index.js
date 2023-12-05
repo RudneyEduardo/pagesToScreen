@@ -40,14 +40,19 @@ const loadImages = async (workId, data) => {
 
 const loadVolumes = async (workId, data) => {
     let volumesArticle = document.getElementById('volumes')
-    for(let i = 0; i < data.files[workId].volumes.length; i++){
-        let textNode = document.createTextNode(' - '+data.files[workId].volumes[i].volume)
-        if(i == 0){
+    if(data.files[workId].volumes){
+        for(let i = 0; i < data.files[workId].volumes.length; i++){
+            let textNode = document.createTextNode(' - '+data.files[workId].volumes[i].volume)
+            if(i == 0){
+                volumesArticle.appendChild(document.createElement('br'))
+            }
+            volumesArticle.appendChild(textNode)
             volumesArticle.appendChild(document.createElement('br'))
         }
-        volumesArticle.appendChild(textNode)
-        volumesArticle.appendChild(document.createElement('br'))
+    }else{
+        document.getElementById('volumesHeader').innerHTML = ''
     }
+    
 }   
 
 async function getJsonData() {
