@@ -3,53 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Tema de Museu - Galeria de Imagens</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    </style>
+    <title>Imagens</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../../scrollBar.css">
 </head>
 
-<body>
-    <header>
-        <h1>Galeria de Imagens - Museu</h1>
-    </header>
+<body onload="loadPage()">
+    <nav class="navbar">
+        <select onchange="selectWork()" class="custom-select" id="worksSelect">
+            <option value="" selected hidden id="selectedOption">Obras</option>
+        </select>|
+        <a href="../characters/index.html">Personagens</a> |
+        <a href="../images/index.html">Imagens</a> |
+        <a href="../videos/index.html">Videos</a> |
+        <a href="../comments/index.html">Comentários</a>
+    </nav>
+    <div class="divisor"></div>
+    <main class="container">
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
+        <article class="image-item">
+        </article>
 
-    <div class="gallery">
-        <img src="caminho_para_sua_imagem1.jpg" alt="Descrição da Imagem 1">
-        <img src="caminho_para_sua_imagem2.jpg" alt="Descrição da Imagem 2">
-        <img src="caminho_para_sua_imagem3.jpg" alt="Descrição da Imagem 3">
-        <!-- Adicione quantas imagens desejar -->
+    </main>
+    <div class="image-container">
+
+        <!-- Adicione mais divs com a classe .image-item para mais imagens -->
     </div>
+    <script src="../../js/images.js"></script>
 </body>
 
 </html>
