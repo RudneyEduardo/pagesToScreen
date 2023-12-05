@@ -36,7 +36,7 @@ async function setImageCarrousel() {
     var image = new Image();
     image.src = "http://127.0.0.1:5500/imgs/" + data.works[i].imgLink;
     image.style = "width:100%; border: 5px solid #555; "
-    containers[i].href = `/pages/works/index.html?workId=${i}`
+    containers[i].href = `pagesToScreens/pages/works/index.html?workId=${i}`
     containers[i].appendChild(image);
 
   }

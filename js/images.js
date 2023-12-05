@@ -36,7 +36,7 @@ async function loadImages(data) {
 function selectWork() {
     let selectValue = document.getElementById('worksSelect').value
     //send to work page
-    window.location.href = `/pages/works/index.html?workId=${selectValue}`;
+    window.location.href = `pagesToScreens/pages/works/index.html?workId=${selectValue}`;
 }
 
 async function setWorksSelect(data) {
