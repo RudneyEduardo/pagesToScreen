@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos</title>
+    <title>Formulário de Comentários</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="../../scrollBar.css">
 </head>
 
 <body onload="loadPage()">
-
     <nav class="navbar">
         <select onchange="selectWork()" class="custom-select" id="worksSelect">
             <option value="" selected hidden id="selectedOption">Obras</option>
-        </select>|
+        </select>
+        |
         <a href="../characters/index.html">Personagens</a> |
         <a href="../images/index.html">Imagens</a> |
         <a href="../videos/index.html">Videos</a> |
@@ -22,17 +21,20 @@
     </nav>
     <div class="divisor"></div>
     <main class="container">
-        <section class="curtain"></section>
-        <section id="middle">
-            <section id="charactersSection">
-                <h2>Personagens de Cada Obra</h2>
-                <ul id="charactersList">
-                </ul>
-            </section>
+        <form id="commentForm" action="javascript:setCommentsData()">
+            <h1>Deixe o seu comentário</h1>
+            <textarea id="comment" name="comment" placeholder="Escreva seu comentário aqui..."></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <section id="commentsSection">
+            <h2>Comentários</h2>
+            <ul id="commentsList">
+            </ul>
         </section>
-        <section class="curtain"></section>
     </main>
-    <script src="../../js/characters.js"></script>
+
+    <script src="../../js/comments.js"></script>
 </body>
 
 </html>

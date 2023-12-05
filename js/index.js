@@ -51,7 +51,7 @@ const loadVolumes = async (workId, data) => {
 }   
 
 async function getJsonData() {
-    return await fetch('./data.json')
+    return await fetch('../../data/data.json')
         .then((res) => {
             return res.json();
         })

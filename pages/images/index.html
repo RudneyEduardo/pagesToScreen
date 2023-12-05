@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Página de Imagens</title>
+    <meta charset="UTF-8">
+    <title>Tema de Museu - Galeria de Imagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>Galeria de Imagens</h1>
-  </header>
+    <header>
+        <h1>Galeria de Imagens - Museu</h1>
+    </header>
 
-  <main>
-    <section>
-      <figure>
-        <img src="caminho/para/imagem1.jpg" alt="Descrição da Imagem 1">
-        <figcaption>Legenda da Imagem 1</figcaption>
-      </figure>
-
-      <figure>
-        <img src="caminho/para/imagem2.jpg" alt="Descrição da Imagem 2">
-        <figcaption>Legenda da Imagem 2</figcaption>
-      </figure>
-
-      <!-- Adicione mais figuras conforme necessário -->
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 Nome da sua Empresa</p>
-  </footer>
+    <div class="gallery">
+        <img src="caminho_para_sua_imagem1.jpg" alt="Descrição da Imagem 1">
+        <img src="caminho_para_sua_imagem2.jpg" alt="Descrição da Imagem 2">
+        <img src="caminho_para_sua_imagem3.jpg" alt="Descrição da Imagem 3">
+        <!-- Adicione quantas imagens desejar -->
+    </div>
 </body>
+
 </html>
